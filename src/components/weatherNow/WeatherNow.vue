@@ -3,7 +3,7 @@
     <header><img src="../../assets/logo.svg"></header>
     <main>
       <ul class="citiesList">
-        <li v-for="(cityData, cardIndex) in citiesData.list" :key="cityData.id" :cardSelected="cardSelected(cardIndex)">
+        <li v-for="(cityData, cardIndex) in citiesData.list" :key="cityData.id" @click="selectedCardIndex = cardIndex">
           <WeatherCard :city="cityData" :showDetails="cardSelected(cardIndex)" />
         </li>
       </ul>
@@ -16,7 +16,7 @@
 import WeatherCard from '../shared/weatherCard/WeatherCard'
 
 const refreshTimeInMs = 10 * 60 * 1000
-const params = { id: '3445709,3421319,184745', units: 'metric', APPID: 'dc685e532a6de9e74b4f56d656ec8a01' }
+const params = { id: '3421319,3445709,184745', units: 'metric', APPID: 'dc685e532a6de9e74b4f56d656ec8a01' }
 const localStorageKey = JSON.stringify(params)
 
 export default {

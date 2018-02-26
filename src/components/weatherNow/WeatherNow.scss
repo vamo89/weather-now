@@ -57,14 +57,6 @@ main ul.citiesList li {
   main ul.citiesList li {
     margin: 0 $cards-margin;
   }
-
-  main ul.citiesList li[cardSelected] {
-    order: 1;
-  }
-
-  main ul.citiesList li:nth-child(even) {
-    order: 2;
-  }
 }
 
 #loading {

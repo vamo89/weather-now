@@ -20,7 +20,6 @@ npm run unit
 
 ### Improvements
 - More test coverage
-- Use click to change selected cities
 - More cities
 - Filter cities
 - More info on cards
