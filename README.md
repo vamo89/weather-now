@@ -2,6 +2,9 @@
 
 > Show how is the weather in some places in the world
 
+This is a small project, using mainly vue.js, webpack, sass and jest.
+It reads data from [OpenWeatherMap](https://openweathermap.org).
+
 ## Build Setup
 
 ``` bash
@@ -11,17 +14,13 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
 # run unit tests
 npm run unit
-
-# run all tests
-npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### Improvements
+- More test coverage
+- Use click to change selected cities
+- More cities
+- Filter cities
+- More info on cards
