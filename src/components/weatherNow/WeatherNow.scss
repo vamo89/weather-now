@@ -45,17 +45,14 @@ main ul.citiesList {
 }
 
 main ul.citiesList li {
-  margin: $cards-margin 0; 
+  margin: $cards-margin; 
 }
 
 @media (min-width: 768px) {
   /* Show elements in row in tablets (768px) and bigger screens */
   main ul.citiesList {
     flex-direction: row;
-  }
-
-  main ul.citiesList li {
-    margin: 0 $cards-margin;
+    flex-wrap: wrap;
   }
 }
 
