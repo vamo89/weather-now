@@ -13,17 +13,15 @@ $loader-url: '../../assets/loader.svg';
 section.app {
   font-family: Helvetica;
   text-align: center;
+  height: 100%;
+  margin: auto;
 }
 
 header {
   border-bottom: 1px solid $divider-color;
   padding: $header-padding 0;
   background-color: $header-background-color;
-
-  position:fixed;
-  top:0px;
-  margin:auto;
-  width:100%;
+  height: $header-height;
 }
 
 header img {
@@ -32,12 +30,14 @@ header img {
 
 main {
   background-color: $app-background-color;
-  margin-top: $header-height;
+  position: absolute;
+  bottom: 0;
+  top: $header-height;
+  overflow: auto;
+  width: 100%;
 }
 
 main ul.citiesList {
-  min-height: 500px;
-
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -53,6 +53,11 @@ main ul.citiesList li {
   main ul.citiesList {
     flex-direction: row;
     flex-wrap: wrap;
+
+    /* absolute center */
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
   }
 }
 
