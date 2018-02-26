@@ -17,7 +17,7 @@ section.app {
 
 header {
   border-bottom: 1px solid $divider-color;
-  padding: $header-padding;
+  padding: $header-padding 0;
   background-color: $header-background-color;
 
   position:fixed;
