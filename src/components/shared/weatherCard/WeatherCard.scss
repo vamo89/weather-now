@@ -1,0 +1,52 @@
+$card-background-color: white;
+$primary-color: #737B84;
+$secondary-color: #B4B4B4;
+$footer-background-color: rgba(#F1F1F1, 0.5);
+$box-shadow-color: rgba(#333333, 0.1);
+$divider-color: #EBEBEB;
+
+section.card {
+  background-color: $card-background-color;
+  display: grid;
+  grid-template-rows: 40px 120px auto;
+  width: 200px;
+  align-items: stretch;
+  box-shadow: 3px 3px 5px $box-shadow-color;
+  border-radius: 5px;
+}
+
+header {
+  color: $primary-color;
+  font-size: 18px;
+  align-self: center;
+}
+
+main {
+  border-top: 1px solid $divider-color;
+}
+
+main .temperature {
+  font-size: 80px;
+  display: block; /* FIXME */
+  padding-top: 20px;
+}
+
+main .temperature .unit {
+  vertical-align: super;
+  font-size: 35px;
+}
+
+footer {
+  color: $secondary-color;
+  background-color: $footer-background-color;
+  padding: 12px;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 12px;
+}
+
+footer section.upated-time {
+  font-size: 10px;
+  grid-column: span 2;
+}

@@ -1,0 +1,84 @@
+$app-background-color: #F1F1F1;
+$header-background-color: white;
+$divider-color: #EBEBEB;
+
+$logo-height: 24px;
+$header-padding: 15px;
+$header-height: $logo-height + ($header-padding * 2);
+
+$cards-margin: 20px;
+
+$loader-url: '../../assets/loader.svg';
+
+section.app {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+header {
+  border-bottom: 1px solid $divider-color;
+  padding: $header-padding;
+  background-color: $header-background-color;
+
+  position:fixed;
+  top:0px;
+  margin:auto;
+  width:100%;
+}
+
+header img {
+  height: $logo-height;
+}
+
+main {
+  background-color: $app-background-color;
+  margin-top: $header-height;
+}
+
+main ul.citiesList {
+  min-height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+main ul.citiesList li {
+  margin: $cards-margin 0; 
+}
+
+@media (min-width: 768px) {
+  /* Show elements in row in tablets (768px) and bigger screens */
+  main ul.citiesList {
+    flex-direction: row;
+  }
+
+  main ul.citiesList li {
+    margin: 0 $cards-margin;
+  }
+
+  main ul.citiesList li[cardSelected] {
+    order: 1;
+  }
+
+  main ul.citiesList li:nth-child(even) {
+    order: 2;
+  }
+}
+
+#loading {
+    display : none;
+}
+#loading[showLoading] {
+    display : block;
+    position : fixed;
+    z-index: 100;
+    background-image : url($loader-url);
+    background-repeat : no-repeat;
+    background-position : center;
+    left : 0;
+    bottom : 0;
+    right : 0;
+    top : 0;
+}

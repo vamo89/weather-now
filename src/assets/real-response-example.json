@@ -1,0 +1,126 @@
+{
+  "cnt": 3,
+  "list": [
+    {
+      "coord": {
+        "lon": -49.59,
+        "lat": -28.02
+      },
+      "sys": {
+        "type": 0,
+        "id": 0,
+        "message": 0.003,
+        "country": "BR",
+        "sunrise": 1519463275,
+        "sunset": 1519509271
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02d"
+        }
+      ],
+      "main": {
+        "temp": 22.23,
+        "pressure": 889.88,
+        "humidity": 71,
+        "temp_min": 22.23,
+        "temp_max": 22.23,
+        "sea_level": 1029.67,
+        "grnd_level": 889.88
+      },
+      "wind": {
+        "speed": 0.96,
+        "deg": 120.501
+      },
+      "clouds": {
+        "all": 20
+      },
+      "dt": 1519487163,
+      "id": 3445709,
+      "name": "Urubici"
+    },
+    {
+      "coord": {
+        "lon": -51.72,
+        "lat": 64.18
+      },
+      "sys": {
+        "type": 1,
+        "id": 4801,
+        "message": 0.0024,
+        "country": "GL",
+        "sunrise": 1519469375,
+        "sunset": 1519504299
+      },
+      "weather": [
+        {
+          "id": 521,
+          "main": "Rain",
+          "description": "shower rain",
+          "icon": "09d"
+        }
+      ],
+      "main": {
+        "temp": -18,
+        "pressure": 981,
+        "humidity": 84,
+        "temp_min": -18,
+        "temp_max": -18
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 8.2,
+        "deg": 10
+      },
+      "clouds": {
+        "all": 75
+      },
+      "dt": 1519487163,
+      "id": 3421319,
+      "name": "Nuuk"
+    },
+    {
+      "coord": {
+        "lon": 36.82,
+        "lat": -1.28
+      },
+      "sys": {
+        "type": 1,
+        "id": 6429,
+        "message": 0.0034,
+        "country": "KE",
+        "sunrise": 1519443700,
+        "sunset": 1519487399
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02d"
+        }
+      ],
+      "main": {
+        "temp": 28.51,
+        "pressure": 1016,
+        "humidity": 26,
+        "temp_min": 28,
+        "temp_max": 29
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 8.2,
+        "deg": 70
+      },
+      "clouds": {
+        "all": 20
+      },
+      "dt": 1519487163,
+      "id": 184745,
+      "name": "Nairobi"
+    }
+  ]
+}

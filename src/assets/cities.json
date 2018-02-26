@@ -1,0 +1,27 @@
+{
+  "id": 3445709,
+  "name": "Urubici",
+  "country": "BR",
+  "coord": {
+    "lon": -49.591671,
+    "lat": -28.014999
+  }
+},
+{
+  "id": 3421319,
+  "name": "Nuuk",
+  "country": "GL",
+  "coord": {
+    "lon": -51.721569,
+    "lat": 64.183472
+  }
+},
+{
+  "id": 184745,
+  "name": "Nairobi",
+  "country": "KE",
+  "coord": {
+    "lon": 36.816669,
+    "lat": -1.28333
+  }
+}
