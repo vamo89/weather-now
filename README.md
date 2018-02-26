@@ -7,6 +7,8 @@ It reads data from [OpenWeatherMap](https://openweathermap.org).
 
 ## Build Setup
 
+Use nodejs 6 or higher
+
 ``` bash
 # install dependencies
 npm install
@@ -17,6 +19,10 @@ npm run dev
 # run unit tests
 npm run unit
 ```
+
+## Instructions
+
+Click in the card to select the city.
 
 ### Improvements
 - More test coverage
