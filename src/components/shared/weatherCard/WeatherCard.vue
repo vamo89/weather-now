@@ -2,7 +2,7 @@
   <section class="card">
     <header>{{ city.name }}, {{ city.sys.country }}</header>
     <main :style="temperatureColor">
-      <span class="temperature">{{ temperature }}<span class="unit">º</span></span>
+      <section class="temperature">{{ temperature }}<span class="unit">º</span></section>
     </main>
     <footer>
       <WeatherDetail v-show="showDetails" name="Humidity" :value="city.main.humidity" unit="%" />

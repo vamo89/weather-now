@@ -12,8 +12,7 @@ export default {
 </script>
 
 <style scoped  lang="scss">
-$primary-color: #737B84;
-$secondary-color: #B4B4B4;
+@import '../../../assets/css/colors.scss';
 
 section.detail {
   font-size: 12px;

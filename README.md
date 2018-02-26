@@ -29,3 +29,5 @@ Click in the card to select the city.
 - More cities
 - Filter cities
 - More info on cards
+- Use cache (with header max-age) instead of localStorage
+- Handle API error with message to user. Mainly when it's the first load.
